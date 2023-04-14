@@ -59,7 +59,7 @@
 extern crate libc;
 
 #[cfg(target_os = "windows")]
-extern crate winapi;
+extern crate windows_sys;
 
 mod error;
 mod ffi;

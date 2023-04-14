@@ -1,6 +1,6 @@
 use std::ptr::addr_of_mut;
 
-use winapi::shared::guiddef::GUID;
+use windows_sys::core::GUID;
 
 use crate::ffi;
 use crate::{HidDevice, HidResult};

@@ -105,7 +105,7 @@ pub mod macos {
 // For documentation look at the corresponding C header file hidapi_winapi.h
 #[cfg(target_os = "windows")]
 pub mod windows {
-    use winapi::shared::guiddef::GUID;
+    use windows_sys::core::GUID;
 
     use super::*;
     extern "C" {
